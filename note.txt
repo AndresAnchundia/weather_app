@@ -1,0 +1,13 @@
+
+
+https://api.openweathermap.org/data/2.5/weather?q={ city }appid={API_KEY}&lang=es&units=metric
+
+ERA DE LA LINEA 20             <i class="bi bi-broadcast"></i>>
+
+LINEAS 32 A LA 34
+                  <h5 class="card-title">{{clima.ciudad}}</h5>
+                  <p class="card-text">{{clima.descripcion}}</p> 
+                  <p class="card-text">{{clima.temperatura}}</p>
+
+linea 36
+<img src="http://openweathermap.org/img/w/{{clima.icono}}.png" alt="...">
