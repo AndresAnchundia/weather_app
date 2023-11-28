@@ -13,15 +13,15 @@ def get_weather_data(city):
     print(r)
     return r
 
-@app.route('/prueba')
-def prueba():
-    clima= get_weather_data('armenia')
+@app.route('/clima')
+def clima():
+    clima= get_weather_data('Cuenca')
     temperatura=str(clima['main']['temp'])
     descripcion=str(clima['weather'][0]['description'])
     icono=str(clima['weather'][0]['icon'])
 
     r_json={ 
-        'ciudad':'armenia',
+        'ciudad':'Cuenca',
         'temperatura':temperatura,
         'descripcion':descripcion,
         'icono':icono}
