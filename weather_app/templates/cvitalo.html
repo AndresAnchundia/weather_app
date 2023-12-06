@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--meta-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Italo Carrera">
+    <meta name="description" content="curriculum vintae de desarrollo web">
+    <meta name="keywords" content="html, css"
+    <meta name="viewpoint" contenr="width=device,initial-scale=1" <!-- permite que se ajuste al tamaño del dispositivio donde se este ejecutando -->
+    <!--favicon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="icon/x-icon" href="images/file-person-fill.svg"
+    <!--boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--css-->
+    <link href="static/css/cv1.css" rel="stylesheet">
+    <title>CV1</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <header> <!--lsirve para poner inks,imagenes,logos,etc-->
+
+        <!--barra de navegacion-->
+        <nav class="navbar navbar-expand-lg navbarligth">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbar-Toggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-Toggler">
+                <a class="navbar-brand" href="#"> 
+                    <img src="icon/rocket-takeoff.svg" width="60" alt="rocket-takeoff"> </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" >Habilidades</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+<!--seccion hero -->
+    <section class="hero align-items-stretch"> <!-- los elementos que contiene la seccion se vana estirar para llenar el contenerdor <!-- section = divide informacion-->
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <div class="card" style="width: 15rem;">
+                <img src="https://avatars.githubusercontent.com/u/134354912?s=400&u=c86eb1980a7770186140033346eb56fd15d054cd&v=4" class="card-img-top" alt="tato">
+                <div class="card-body">
+                <h5 class="card-title">Detalles personales</h5>
+                <p class="card-text"> italocarrerap28@gmail.com<br> 0994707596<br> Guayaquil- Ecuador</p>
+                <a href="mailto:italoccarrerap28@gmail.com" class="btn btn-primary">Contactame</a>
+                
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <h1>
+            Italo Alfredo Carrera Perez
+        </h1>
+        <h2>
+            Estudiante en Lic. Gestión de la Infromación Gerencial
+        </h2>
+    </section>
+
+    <section class="acerca-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo"> Acerca de mi </h2>
+            <p class="seccion-texto">
+                Soy organizado y responsable, siempre tengo la mejor disposición para la realización de mis labores, <br>
+                muy orientado a resultados, al trabajo en equipo y asumir nuevos retos con entusiasmo 
+            </p>    
+        </div>
+    </section>
+
+    <section class="informacion seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!--educacion-->
+                <div class="columna col-12 col-sm-4">
+                    <h2 class="educacion"> Educacion </h2>
+                    <ul> 
+                        <li> Colegio U. E. de la C.T.G. <br>
+                            Bachiller técnico en <br>
+                            Administración de Empresas
+                            </li>
+                            <li> Universidad de Guayaquil <br>
+                                Estudiante en Lic. Gestión<br>
+                                de la Información <br>
+                                Gerencial (4to semestre)
+                            </li>
+                        </ul>
+                </div>
+
+                <!--cursos-->
+                <div class="columna col-12 col-sm-4">
+                    <h2 class="cursos"> Cursos </h2>
+                    <ul>
+                        <li> Tecnico en sistemas de refrigeración </li>
+                        <br>
+                        <br>
+                        <li> Tecnico en reparación de telefonos moviles </li>
+                    </ul>
+                </div>
+
+                <!--detalles personales-->
+                <div class="columna col-12 col-sm-4">
+                    <h2 class="habilidades"> Habilidades</h2>
+                    <ul>
+                        <li> Programacion (PYTHON, HTML, SQL) </li>
+                        <li> Bases de Datos </li>
+                        <li> Electronica basica </li>
+                        <li> Micro soldadura </li>
+                        <br>
+                    </ul>
+                    
+                        <span class="badge rounded-pill text-bg-dark">Python</span>
+                        <span class="badge rounded-pill text-bg-dark">Sql</span>
+                        <span class="badge rounded-pill text-bg-dark">Html</span>
+    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="informacion2">
+        <div class="container text-center">
+            <div class="row">
+                <!--educacion-->
+                <div class="columna2 col-12 col-sm-6">
+                    <h2 class="experiencia"> Experiencia </h2>
+                    <h3> Tecnico en sistemas de refigreracion</h3>
+                    <p> cilma frio -2018-2023</p>
+                    <p>Responsable de atender y ofrecer el servicio a domicilio ya sea mantenimiento, 
+                            instalación o reparación de equipos electrónicos o de refrigeración.
+                    </p>
+                </div>
+
+                <!--cursos-->
+                <div class="columna2 col-12 col-sm-6">
+                    <h2 class="pasantias"> Pasantias </h2>
+                    <p>  Departamento: Activo Fijo - Guayaquil - 2018 <br> 
+                    Control de Inventario, activación y defunción de <br>
+                    activos de cada departamento, control de salida y entrada <br>
+                    de todo tipo de insumos de la empresa
+                    </p>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <footer> <!-- pie de pag, info de contaco, etiquetas, links-->
+
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+          <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+              <div class="col-12 col-md-4 seccion-titulo">
+                ¡Hablemos!
+              </div>
+              <div class="col-12 col-md-4 descripcion">
+                <a href="https://github.com/IAPtato" target="blank">
+                <button type="button">  
+                  GitHub
+                  <i class="bi bi-github"></i>
+                  </button>
+                </a>  
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="mailto:italocarrerap28@gmail.com">
+                  <button type="button">  
+                    Contacto
+                    <i class="bi bi-envelope-check-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>  
+            
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+</body>
